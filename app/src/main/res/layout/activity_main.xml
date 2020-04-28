@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/drawer_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/dark_background">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <include
+                    layout="@layout/toolbar"
+                    android:id="@+id/toolBar">
+
+            </include>
+
+            <fragment
+                    android:id="@+id/myNavHostFragment"
+                    android:name="androidx.navigation.fragment.NavHostFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:navGraph="@navigation/navigation"
+                    app:defaultNavHost="true"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.navigation.NavigationView
+                android:id="@+id/navView"
+                app:menu="@menu/navdrawer_menu"
+                app:itemTextColor="@android:color/white"
+                style="@style/menu_style"/>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</layout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation"
+            app:startDestination="@id/drivingModeFragment">
+
+    <fragment
+            android:id="@+id/drivingModeFragment"
+            android:name="com.example.remotecontrolcar.DrivingModeFragment"
+            tools:layout="@layout/fragment_driving_mode" />
+    <fragment
+            android:id="@+id/tutorialFragment"
+            android:name="com.example.remotecontrolcar.TutorialFragment"
+            tools:layout="@layout/fragment_tutorial">
+        <action
+                android:id="@+id/action_tutorialFragment_to_drivingModeFragment"
+                app:destination="@id/drivingModeFragment" />
+    </fragment>
+    <fragment
+            android:id="@+id/controlsFragment"
+            android:name="com.example.remotecontrolcar.ControlsFragment"
+            tools:layout="@layout/fragment_controls">
+        <action
+                android:id="@+id/action_controlsFragment_to_drivingModeFragment"
+                app:destination="@id/drivingModeFragment" />
+    </fragment>
+
+</navigation>

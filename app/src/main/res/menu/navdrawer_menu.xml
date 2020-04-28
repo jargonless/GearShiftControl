@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/tutorialFragment"
+            android:title="help"
+            android:icon="@drawable/ic_editor" />
+
+    <item
+            android:id="@+id/controlsFragment"
+            android:title="controls"
+            android:icon="@drawable/android_ic" />
+
+
+</menu>

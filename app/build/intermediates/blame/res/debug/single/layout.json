@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jargonless/Android/android-projects/RemoteControlCar/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_driving_mode.xml",
+        "source": "/home/jargonless/Android/android-projects/RemoteControlCar/app/src/main/res/layout/fragment_driving_mode.xml"
+    },
+    {
+        "merged": "/home/jargonless/Android/android-projects/RemoteControlCar/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/home/jargonless/Android/android-projects/RemoteControlCar/app/src/main/res/layout/activity_main.xml"
+    }
+]

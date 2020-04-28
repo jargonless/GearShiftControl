@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                                  
+                                                           
+                                                      
+                                                                         
+    
+                 
+                                      
+                                                                     
+           
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:tag="layout/fragment_driving_mode_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.remotecontrolcar.DrivingModeFragment">
+
+        <ImageView
+                android:id="@+id/volant"
+                android:layout_width="293dp"
+                android:layout_height="244dp"
+                android:layout_marginStart="150dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="TODO"
+                android:src="@drawable/rcwheel"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/pedal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.494" />
+
+        <ImageView
+                android:id="@+id/pedal"
+                android:layout_width="92dp"
+                android:layout_height="184dp"
+                android:layout_marginEnd="100dp"
+                android:contentDescription="TODO"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pedal2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/volant"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.591" />
+
+        <ImageView
+                android:id="@+id/gearUp"
+                android:layout_width="73dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/plus_edited"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/pedal"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.371" />
+
+        <ImageView
+                android:id="@+id/gearDown"
+                android:layout_width="73dp"
+                android:layout_height="67dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/minus_edited"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/pedal"
+                app:layout_constraintTop_toBottomOf="@+id/gearUp"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+         

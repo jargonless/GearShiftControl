@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RemoteControlCar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="identification_drivingMode">Hello, I am the Driving fragment</string>
+    <string name="identification_editorMode">Hello, I am the Editor fragment</string>
+    <string name="presseme">PresseMe</string>
+    <string name="toeditor">Edit layout</string>
+    <string name="Setting">Setting</string>
+    <string name="Edit_controls">Edit controls</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_confirm">Save changes</string>
+    <string name="dialog_save_changes">Quit and save changes?</string>
+
+    <string name="other_question">If you have other questions, please send email to this address</string>
+
+    <string name="hello_starter">
+        1.Open your phone\'s Settings app\n
+        2.Connect to the Wi-Fi named "DongZiTech"\n
+        3.It says "no internet access", but please ignore it for your device can still connect to the car.
+    </string>
+
+</resources>
